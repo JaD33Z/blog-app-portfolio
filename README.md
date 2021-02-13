@@ -1,7 +1,7 @@
 # blog-app-portfolio
+[VIEW MY BLOG APP HERE](https://jd-blog-app-portfolio.herokuapp.com/)
 
-     [View My Blog App Site Here](https://jd-blog-app-portfolio.herokuapp.com/)
-
+    
 Blog app built with Flask. Features include - users, register, authentication, posts, edit.
 
 This is a RESTful app. Scripted in Python3. Built using Flask, Bootstrap, Jinja, SQLite/Postgres, SQLalchemy, CKEditor, WTForms, and several other libraries. Hosted with gunicorn and heroku. Users can register, then create a user name and password. Relationships are formed between the classes and their properties. Then they are stored in the database. Passwords are encrypted, hashed and salted. Once authenticated, users can then add and edit their own post entries, comment on posts, and login and out. Note - The "create post" button is
