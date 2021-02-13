@@ -1,6 +1,6 @@
 # blog-app-portfolio
 
-                    [View Blog App Site Here](https://jd-blog-app-portfolio.herokuapp.com/)
+     [View My Blog App Site Here](https://jd-blog-app-portfolio.herokuapp.com/)
 
 Blog app built with Flask. Features include - users, register, authentication, posts, edit.
 
