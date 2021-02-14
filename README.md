@@ -4,14 +4,10 @@
     
 Blog app built with Flask. Features include - users, register, authentication, posts, edit.
 
-This is a RESTful app. Scripted in Python3. Built using Flask, Bootstrap, Jinja, SQLite/Postgres, SQLalchemy, CKEditor, WTForms, and several other libraries. Hosted with gunicorn and heroku. Users can register, then create a user name and password. Relationships are formed between the classes and their properties. Then they are stored in the database. Passwords are encrypted, hashed and salted. Once authenticated, users can then add and edit their own post entries, comment on posts, and login and out. Note - The "create post" button is
-set to "admin only", for presentational purposes. Incase you were wondering how to post. A simple adjustment to main.py and index.html
-makes creating posts fully accessable.
+This is a RESTful app. Scripted in Python3. Built using Flask, Bootstrap, Jinja, SQLite/Postgres, SQLalchemy, CKEditor, WTForms, and several other libraries. Hosted with gunicorn and heroku. Users can register, then create a user name and password. Relationships are formed between the classes and their properties. Then they are stored in the database. Passwords are encrypted, hashed and salted. Once authenticated, users can then add and edit their own post entries, comment on posts, and login and out. The contact page is functional as well.
+Note - The "create post" button is set to "admin only", for presentational purposes. Incase you were wondering how to post. A simple adjustment to main.py and index.html makes creating posts fully accessable. 
 
-The contact page is functional. On local host it was fine but once deployed to Heroku, I ran into issues sending email.
-I had to do some digging around and trial/error but I did fix this and works. I'll post my solution for this in the near future because it seems to be a common issue with this combo but not many known remedies directly surrounding it. The one that worked was rather simple with very minimal changes to code after deployment. So Hopefully that will save others some time and frustration. 
-
-Now, let's talk about REST and what makes this project REST-ful. This abbreviation stands for representational state transfer. The definition can be conveyed with simpler words: data presentation for a client in the format that is convenient for it. There is one of the main points that you need to understand: REST is not a standard or protocol, this is an approach to architectural style for writing API. It gives authenticated users access to the state of the sites contents that is appropriate to their user.
+ Now, let's talk about REST and what makes this project REST-ful. This abbreviation stands for representational state transfer. The definition can be conveyed with simpler words: data presentation for a client in the format that is convenient for it. There is one of the main points that you need to understand: REST is not a standard or protocol, this is an approach to architectural style for writing API. It gives authenticated users access to the state of the sites contents that is appropriate to their user.
  
 General rundown:
 
