@@ -12,4 +12,16 @@ Note - The "create post" button is set to "admin only", for presentational purpo
  
 General rundown:
 
-#forms.py Forms classes are defined to construct your actual form boxes for users to register, login, post, comment, etc. #main.py Configure your tables classes for the forms to be established in the database. Also established in these classes are your authtication validation requirements. Once that is run and the tables are made, comment out the line of code "db.create_all()". Define your functions for the behavior of your classes and your app. HTML pages must all be stored in a "templates" folder to let the flask server know where to look for them so they can be rendered. CSS JS and a few other folders must be stored in "static" for the same reason. Make your routes in main.py to connect these functions and objects into your HTML pages. Do the same on your HTML pages leading them to their correct objects and functions, using JINJA. JINJA allows python code lines to be written and executed in your HTML pages with FLASK. Form relationships between objects for database. They are made in the params of the class attributes. Deploying, I used Heroku to host the app. You must switch to a WSGI server to run a python application. This app used gunicorn for the WSGI server. Normal web servers can't run Python applications, so this will standardize language protocols between the application and the host server. Also when in Heroku switch from sqlite to postgres database to prevent losing any stored data from your app.
+#forms.py Forms classes are defined to construct your actual form boxes for users to register, login, post, comment, etc.
+#main.py Configure your tables classes for the forms to be established in the database. 
+Also established in these classes are your authtication validation requirements. 
+Once that is run and the tables are made, comment out the line of code "db.create_all()". 
+Define your functions for the behavior of your classes and your app.
+HTML pages must all be stored in a "templates" folder to let the flask server know where to look for them so they can be rendered.
+CSS JS and a few other folders must be stored in "static" for the same reason.
+Make your routes in main.py to connect these functions and objects into your HTML pages.
+Do the same on your HTML pages leading them to their correct objects and functions, using JINJA. JINJA allows python code lines to be written and executed in your HTML pages with FLASK.
+Form relationships between objects for database. They are made in the params of the class attributes.
+Deploying, I used Heroku to host the app. You must switch to a WSGI server to run a python application. 
+This app used gunicorn for the WSGI server. Normal web servers can't run Python applications, so this will standardize language protocols between the application and the host server.
+Also when in Heroku switch from sqlite to postgres database to prevent losing any stored data from your app.
