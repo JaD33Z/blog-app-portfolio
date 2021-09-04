@@ -14,7 +14,7 @@ General rundown:
 
 - #forms.py Forms classes are defined to construct your actual form boxes for users to register, login, post, comment, etc.
 - #main.py Configure your tables classes for the forms to be established in the database. 
-- Also established in these classes are your authtication validation requirements. 
+- Also established in these classes are your authentication validation requirements. 
 - Once that is run and the tables are made, comment out the line of code "db.create_all()". 
 - Define your functions for the behavior of your classes and your app.
 - HTML pages must all be stored in a "templates" folder to let the flask server know where to look for them so they can be     rendered.
